@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-10T10:25:01 IST" name="Default suite" finished-at="2026-06-10T10:25:19 IST" duration-ms="18089">
+    <groups>
+    </groups>
+    <test started-at="2026-06-10T10:25:01 IST" name="Default test" finished-at="2026-06-10T10:25:19 IST" duration-ms="18089">
+      <class name="com.DropDownBox.DropDownElement">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.DropDownBox.DropDownElement@6ed3ccb2]" started-at="2026-06-10T10:25:01 IST" name="setUp" finished-at="2026-06-10T10:25:08 IST" duration-ms="7418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DropDownList()[pri:0, instance:com.DropDownBox.DropDownElement@6ed3ccb2]" started-at="2026-06-10T10:25:08 IST" name="DropDownList" finished-at="2026-06-10T10:25:19 IST" duration-ms="10611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownList -->
+      </class> <!-- com.DropDownBox.DropDownElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
