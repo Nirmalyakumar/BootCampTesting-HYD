@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import au.com.bytecode.opencsv.CSVReader;
 
 public class CSVDataDrivenTesting {
-	String CSVPath = "C:\Users\Nirmalya.Mohanta\Downloads\Book(Sheet1).csv" ;
+	String CSVPath = ( "C:\Users\Nirmalya.Mohanta\Downloads\Book(Sheet1).csv" ) ;
 	WebDriver driver;
 
 	@BeforeTest
