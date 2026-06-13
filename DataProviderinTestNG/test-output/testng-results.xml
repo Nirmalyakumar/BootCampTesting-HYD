@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-13T10:46:10 IST" name="Default suite" finished-at="2026-06-13T10:46:45 IST" duration-ms="34356">
+    <groups>
+    </groups>
+    <test started-at="2026-06-13T10:46:10 IST" name="Default test" finished-at="2026-06-13T10:46:45 IST" duration-ms="34356">
+      <class name="com.DataProvider.DataProviderTestNG">
+        <test-method signature="Browser(java.lang.String,java.lang.String)[pri:0, instance:com.DataProvider.DataProviderTestNG@7975d1d8]" started-at="2026-06-13T10:46:10 IST" name="Browser" data-provider="EasyCalculation" finished-at="2026-06-13T10:46:22 IST" duration-ms="11760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9508635182]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raghubn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataProvider.DataProviderTestNG@7975d1d8]" started-at="2026-06-13T10:46:22 IST" name="tearDown" finished-at="2026-06-13T10:46:23 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Browser(java.lang.String,java.lang.String)[pri:0, instance:com.DataProvider.DataProviderTestNG@7975d1d8]" started-at="2026-06-13T10:46:23 IST" name="Browser" data-provider="EasyCalculation" finished-at="2026-06-13T10:46:33 IST" duration-ms="10339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9500835182]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raghubn@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataProvider.DataProviderTestNG@7975d1d8]" started-at="2026-06-13T10:46:33 IST" name="tearDown" finished-at="2026-06-13T10:46:34 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Browser(java.lang.String,java.lang.String)[pri:0, instance:com.DataProvider.DataProviderTestNG@7975d1d8]" started-at="2026-06-13T10:46:34 IST" name="Browser" data-provider="EasyCalculation" finished-at="2026-06-13T10:46:44 IST" duration-ms="10638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9508635182]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kush@2004]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DataProvider.DataProviderTestNG@7975d1d8]" started-at="2026-06-13T10:46:44 IST" name="tearDown" finished-at="2026-06-13T10:46:45 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataProvider.DataProviderTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

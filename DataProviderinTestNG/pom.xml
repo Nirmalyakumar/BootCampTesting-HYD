@@ -1,13 +1,12 @@
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>TestNGAssertion</groupId>
-  <artifactId>TestNGAssertion</artifactId>
+  <groupId>DataProviderinTestNG</groupId>
+  <artifactId>DataProviderinTestNG</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <dependencies>
+<dependencies>
 		<!-- Source:
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-		<dependency>
+		<dependency>	
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.44.0</version>
@@ -58,6 +57,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-
 </dependencies>
+
 </project>
