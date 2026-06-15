@@ -1,38 +1,27 @@
 package DataDrivenTesting_UsingApachePOI.DataDrivenTesting_UsingApachePOI;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import java.io.File;
+import java.io.FileInputStream;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+public class AppTest {
+String apacheUrl = "\"C:\\Coforge BootCamp Automation Testing\\AparcheTestData\\AparcheTestData.xlsx\"";
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+@Test
+public void setUp() throws Exception {
+	File src = new File(apacheUrl);
+	FileInputStream file = new FileInputStream(src);
+	XSSFWorkbook wb = new XSSFWorkbook(file);
+	XSSFSheet sheet1 = wb.getSheetAt(0);
+	System.out.println("UserName                Password" );
+	for(int i=0;i<6;i++) {
+		for(int j=0;j<2;j++) {
+			System.out.print(sheet1.getRow(i).getCell(j).getStringCellValue());
+			System.out.print("       ");
+		}
+		System.out.println();
+	}
+	wb.close();
+	}
 }
