@@ -10,18 +10,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExplicitWait {
-	public static void main (String[] args) {
-		
+	public static void main(String args[]) throws Exception {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Selenium Automation Testing");
-		
+		driver.get("https://google.com");
+		driver.findElement(By.name("q")).sendKeys("Selelenium Automation Testing");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.name("APjFqb")));
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.name("Apj")));
 		element.click();
 	}
-	
-
 }
+
