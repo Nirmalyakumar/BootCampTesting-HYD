@@ -2,19 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T10:35:09 IST" name="Default suite" finished-at="2026-06-15T10:35:25 IST" duration-ms="15996">
+  <suite started-at="2026-06-17T14:03:11 IST" name="Default suite" finished-at="2026-06-17T14:03:36 IST" duration-ms="24441">
     <groups>
     </groups>
-    <test started-at="2026-06-15T10:35:09 IST" name="Default test" finished-at="2026-06-15T10:35:25 IST" duration-ms="15996">
+    <test started-at="2026-06-17T14:03:11 IST" name="Default test" finished-at="2026-06-17T14:03:36 IST" duration-ms="24441">
       <class name="com.RadioButton.RadioAlert">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.RadioButton.RadioAlert@74e52ef6]" started-at="2026-06-15T10:35:09 IST" name="setUp" finished-at="2026-06-15T10:35:24 IST" duration-ms="15103" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.RadioButton.RadioAlert@1a677343]" started-at="2026-06-17T14:03:11 IST" name="setUp" finished-at="2026-06-17T14:03:34 IST" duration-ms="22938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="radioAlert()[pri:0, instance:com.RadioButton.RadioAlert@74e52ef6]" started-at="2026-06-15T10:35:24 IST" name="radioAlert" finished-at="2026-06-15T10:35:25 IST" duration-ms="838" status="PASS">
+        <test-method signature="radioAlert()[pri:0, instance:com.RadioButton.RadioAlert@1a677343]" started-at="2026-06-17T14:03:34 IST" name="radioAlert" finished-at="2026-06-17T14:03:35 IST" duration-ms="864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.RadioButton.RadioAlert@1a677343]" started-at="2026-06-17T14:03:35 IST" name="tearDown" finished-at="2026-06-17T14:03:36 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.RadioButton.RadioAlert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

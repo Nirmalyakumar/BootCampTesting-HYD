@@ -3,6 +3,7 @@ package com.RadioButton;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -18,11 +19,17 @@ public class RadioAlert {
 	}
 	
 	@Test
-	public void radioAlert() 
-	{
+	public void radioAlert() {
 		driver.findElement(By.xpath("//div[contains(text(),'Family & Friends')]")).click();
 		String text = driver.findElement(By.xpath("//div[contains(text(),'Family & Friends')]")).getText();
 		System.out.println(text);
 	}
+	
+	@AfterTest
+	public void tearDown() {
+		if(driver != null) {
+			driver.quit();
+		}
+	}	
 }
 
